@@ -1,0 +1,460 @@
+/* ================================================== 
+*	Project Name 	:  Spread
+*	File 			:  Responsive CSS Base
+*	Version 		:  1.0.0
+*	Last change 	:  19 August 2019
+*	Author 			:  ----------
+*	Developer:		:  Rakibul Islam Dewan
+
+*	css code for responsive layout To make Responsive
+================================================== */
+
+/* ==================================================
+*	1 - media screen and (max-width: 1440px)
+*	2 - media screen and (max-width: 1280px)
+*	3 - media screen and (max-width: 1199px)
+*	4 - media screen and (max-width: 991px)
+*	5 - media screen and (max-width: 580px)
+*	6 - media screen and (max-width: 320px)
+================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+1 - media screen and (max-width: 1440px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 1440px) {
+
+	/* global - start */
+	body {
+		font-size: 14px;
+	}
+	.container {
+		max-width: 1200px;
+	}
+	/* global - end */
+
+	/* home - start */
+	.banner-section .input-group > ul > li .form-item {
+		width: 190px;
+	}
+	.banner-section .input-group > ul > li .form-item.small-item {
+		width: 90px;
+	}
+
+	.usp-section .usp-item p {
+		font-size: 18px;
+	}
+
+	.testimonial-section .testimonial-carousel .item .hero-name {
+		font-size: 20px;
+	}
+	.testimonial-section .testimonial-carousel .item .post-time {
+		font-size: 16px;
+	}
+	.testimonial-section .testimonial-carousel .item p {
+		margin-top: 20px;
+	}
+	.testimonial-section .owl-theme .owl-nav .owl-prev {
+		left: -60px;
+	}
+	.testimonial-section .owl-theme .owl-nav .owl-next {
+		right: -60px;
+	}
+
+	.protfolio-section .grid .grid-item .image-container .details-link .area-name {
+		font-size: 28px;
+	}
+	.protfolio-section .grid .grid-item .image-container .details-link .item-content .item-title {
+		font-size: 24px;
+	}
+	.protfolio-section .grid .grid-item .image-container .details-link .item-content .post-time {
+		font-size: 20px;
+	}
+	/* home - end */
+
+}
+
+/* ====================================================================================================
+1 - media screen and (max-width: 1440px) - end
+==================================================================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+2 - media screen and (max-width: 1280px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 1280px) {
+
+	/* home - start */
+	.testimonial-section .owl-theme .owl-nav .owl-prev,
+	.testimonial-section .owl-theme .owl-nav .owl-next {
+		box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.1);
+	}
+	.testimonial-section .owl-theme .owl-nav .owl-prev {
+		left: -25px;
+	}
+	.testimonial-section .owl-theme .owl-nav .owl-next {
+		right: -25px;
+	}
+	/* home - end */
+
+}
+
+/* ====================================================================================================
+2 - media screen and (max-width: 1280px) - end
+==================================================================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+3 - media screen and (max-width: 1199px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 1199px) {
+
+	/* global - start */
+	.sec-ptb-60 {
+		padding: 60px 0px;
+	}
+	/* global - end */
+
+	/* footer - start */
+	.footer-section .useful-links > ul > li > a {
+		font-size: 18px;
+	}
+	.footer-section .contact-info > ul > li > a {
+		font-size: 18px;
+	}
+	.footer-section .item-title {
+		font-size: 24px;
+	}
+	/* footer - end */
+
+	/* home - start */
+	.banner-section .input-group > ul > li .form-item {
+		width: 146px;
+	}
+
+	.testimonial-section .testimonial-carousel .item p {
+		font-size: 16px;
+	}
+	.testimonial-section .testimonial-carousel .item {
+		padding: 20px;
+	}
+	.testimonial-section .testimonial-carousel .item .hero-name {
+		font-size: 18px;
+	}
+	.testimonial-section .testimonial-carousel .item .post-time {
+		font-size: 14px;
+	}
+	.testimonial-section .owl-theme .owl-nav {
+		margin-top: 40px;
+	}
+	.testimonial-section .owl-theme .owl-nav .owl-next,
+	.testimonial-section .owl-theme .owl-nav .owl-prev {
+		position: sticky;
+		transform: unset;
+	}
+
+	.protfolio-section .grid .grid-item .image-container .details-link .area-name {
+		top: 15px;
+		left: 15px;
+		font-size: 30px;
+	}
+	.protfolio-section .grid .grid-item .image-container .details-link .item-content {
+		padding: 15px;
+	}
+	.protfolio-section .grid .grid-item .image-container .details-link .item-content .post-time {
+		font-size: 20px;
+	}
+	/* home - end */
+
+}
+
+/* ====================================================================================================
+3 - media screen and (max-width: 1199px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+4 - media screen and (max-width: 991px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 991px) {
+
+	/* global - start */
+	body {
+		padding-top: 87px;
+	}
+
+	.mb-60 {
+		margin-bottom: 30px;
+	}
+
+	.section-title .title-text {
+		font-size: 48px;
+	}
+	.section-title.mb-90 {
+		margin-bottom: 50px;
+	}
+	/* global - end */
+
+	/* header - start */
+	.header-section {
+		padding: 20px 0px;
+	}
+	.header-section .main-menubar > ul > li > a {
+		font-size: 20px;
+	}
+	.header-section .main-menubar > ul > li {
+		margin-right: 40px;
+	}
+	.header-section .main-menubar {
+		padding: 7px 0px;
+	}
+	.header-section .main-menubar > ul > li:before {
+		height: 3px;
+		bottom: -28px;
+	}
+	/* header - end */
+
+	/* footer - start */
+	.footer-section .footer-bottom .other-brand {
+		max-width: 200px;
+	}
+	.footer-section .useful-links {
+		width: 100%;
+		margin: 0px;
+		display: table;
+		margin-bottom: 40px;
+	}
+	.footer-section .contact-info {
+		margin: 0px;
+		width: 100%;
+		display: table;
+	}
+	.footer-section .item-title {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.footer-section .footer-content .brand-logo .brand-link {
+		max-width: 150px;
+		margin-bottom: 40px;
+	}
+	/* footer - end */
+
+	/* home - start */
+	.banner-section {
+		padding: 80px 0px;
+		text-align: center;
+	}
+	.banner-section .title-text {
+		font-size: 56px;
+		max-width: 100%;
+	}
+	.banner-section .input-group > ul > li {
+		width: 100%;
+		margin: 10px 0px;
+	}
+	.banner-section .input-group > ul > li .form-item {
+		width: 100%;
+	}
+	.banner-section .input-group > ul > li .form-item.small-item {
+		width: 100%;
+	}
+	.banner-section .input-group > ul > li .form-item input {
+		font-size: 20px;
+	}
+	.banner-section .input-group > ul > li .icon {
+		width: 100%;
+	}
+	.banner-section .custom-btn {
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.usp-section .usp-item {
+		width: 100%;
+		display: table;
+		margin: 15px auto 0px;
+	}
+	.usp-section .usp-item p {
+		font-size: 20px;
+	}
+
+	.howitwork-section .howitwork-item > .item-image {
+		width: 180px;
+		height: 180px;
+		margin-bottom: 30px;
+	}
+	.howitwork-section .howitwork-item .item-content .item-title {
+		font-size: 22px;
+	}
+	.howitwork-section .howitwork-item .item-content > p {
+		font-size: 16px;
+		max-width: 100%;
+	}
+
+	.protfolio-section .grid .grid-item .image-container .details-link .area-name {
+		top: 8px;
+		left: 8px;
+		font-size: 24px;
+	}
+	.protfolio-section .grid .grid-item .image-container .details-link .item-content {
+		padding: 8px;
+	}
+	.protfolio-section .grid .grid-item .image-container .details-link .item-content .item-title {
+		font-size: 20px;
+	}
+	.protfolio-section .grid .grid-item .image-container .details-link .item-content .post-time {
+		font-size: 16px;
+	}
+	/* home - end */
+
+}
+
+/* ====================================================================================================
+4 - media screen and (max-width: 991px) - end
+==================================================================================================== */
+
+
+
+
+
+
+/* ====================================================================================================
+5 - media screen and (max-width: 580px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 580px) {
+
+	/* global - start */
+	body {
+		padding-top: 71px;
+	}
+
+	.section-title .title-text {
+		font-size: 36px;
+	}
+
+	#backtotop {
+		width: 40px;
+		height: 40px;
+		bottom: 66px;
+	}
+	#backtotop #scroll {
+		font-size: 18px;
+		line-height: 42px;
+	}
+	/* global - end */
+
+	/* header - start */
+	.header-section .main-menubar {
+		display: none;
+	}
+	.header-section .brand-logo .mobile-menu-btn {
+		display: inline-block;
+	}
+	.header-section .brand-logo .brand-link {
+		max-width: 100px;
+	}
+	.header-section .brand-logo .mobile-menu-btn {
+		font-size: 26px;
+	}
+	/* header - end */
+
+	/* home - start */
+	.banner-section {
+		padding: 80px 0px;
+	}
+	.banner-section .title-text {
+		font-size: 42px;
+	}
+	.banner-section .input-group > ul > li .form-item input {
+		font-size: 16px;
+	}
+	.banner-section .custom-btn {
+		height: 50px;
+		font-size: 24px;
+		line-height: 50px;
+	}
+
+	.howitwork-section .howitwork-item > .item-image {
+		width: 120px;
+		height: 120px;
+		margin-bottom: 20px;
+	}
+	.howitwork-section .howitwork-item .item-content .item-title {
+		font-size: 28px;
+		margin-bottom: 15px;
+	}
+
+	.protfolio-section .grid .grid-item {
+		width: 50%;
+	}
+	/* home - end */
+
+}
+
+/* ====================================================================================================
+5 - media screen and (max-width: 580px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+6 - media screen and (max-width: 320px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 320px) {
+
+	/* home - start */
+	.banner-section .title-text {
+		font-size: 36px;
+	}
+	.usp-section .usp-item p {
+		font-size: 18px;
+	}
+
+	.testimonial-section .testimonial-carousel .item .hero-name {
+		font-size: 16px;
+	}
+	.testimonial-section .testimonial-carousel .item .post-time {
+		font-size: 12px;
+	}
+
+	.protfolio-section .grid .grid-item .image-container .details-link .area-name {
+		top: 5px;
+		left: 5px;
+		font-size: 20px;
+	}
+	.protfolio-section .grid .grid-item .image-container .details-link .item-content {
+		padding: 5px;
+	}
+	.protfolio-section .grid .grid-item .image-container .details-link .item-content .item-title {
+		font-size: 16px;
+	}
+	.protfolio-section .grid .grid-item .image-container .details-link .item-content .post-time {
+		font-size: 14px;
+	}
+	/* home - end */
+
+}
+
+/* ====================================================================================================
+6 - media screen and (max-width: 320px) - end
+==================================================================================================== */
